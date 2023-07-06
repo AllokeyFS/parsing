@@ -10,6 +10,7 @@ for n in range(1, 162):
     urls.append(f'')
 
 
+
 with open('laptop.csv', 'w', newline='', encoding='utf-8') as data:
     writer = csv.writer(data)
     writer.writerow(['Name', 'Description', 'Price','URL'])
